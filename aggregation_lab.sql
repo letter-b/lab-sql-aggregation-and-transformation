@@ -1,10 +1,9 @@
 USE sakila;
 
 #1.1
-SELECT max(length)
-FROM film;
-
-SELECT min(length)
+SELECT 
+    MAX(length) AS max_duration,
+    MIN(length) AS min_duration
 FROM film;
 
 #1.2
